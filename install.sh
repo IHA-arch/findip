@@ -1,5 +1,13 @@
 #!/bin/bash
 
+root() {
+user=`whoami`
+if [[ $user != 'root' ]]; then
+	echo "Please run as root\n"
+	exit
+fi
+}
+root
 cp findip.py /usr/share
 sleep 0.5
 cp ipaddr /usr/local/bin
