@@ -1,3 +1,3 @@
 # findip
 
-find ipv4 address of Destination address
+find ipv4 address of any website
