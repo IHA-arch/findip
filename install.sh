@@ -3,7 +3,7 @@
 root() {
 user=`whoami`
 if [[ $user != 'root' ]]; then
-	echo "Please run as root\n"
+	printf "Please run as root\n"
 	exit
 fi
 }
