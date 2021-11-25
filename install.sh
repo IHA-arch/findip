@@ -6,5 +6,5 @@ cp ipaddr /usr/local/bin
 chmod +x /usr/local/bin/ipaddr
 
 sleep 0.5
-printf "type 'ipaddr <Destination address>', for use\n"
+printf "type 'ipaddr <Domain name or web url>', for use\n"
 
